@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base58 (0.2.3)
+    bip_mnemonic (0.0.4)
+    bitcoin (0.2.0)
+      bitcoin-ruby
+    bitcoin-ruby (0.0.20)
+      eventmachine
+      ffi
+      scrypt
+    eventmachine (1.2.7)
+    ffi (1.16.3)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    rake (13.1.0)
+    rbnacl (7.1.1)
+      ffi
+    scrypt (3.0.7)
+      ffi-compiler (>= 1.0, < 2.0)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  base58
+  bip_mnemonic (~> 0.0.2)
+  bitcoin
+  rbnacl
+
+BUNDLED WITH
+   2.4.18
